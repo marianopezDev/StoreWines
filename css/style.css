@@ -1,0 +1,133 @@
+nav {
+  background-color: #721422;
+}
+
+#logoNav {
+  max-width: 60px;
+}
+
+.listItems {
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: 700;
+}
+.listItems a {
+  color: white;
+}
+
+.navButton {
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.navButtonCollapse {
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 4px 8px;
+}
+.navButtonCollapse i {
+  font-size: 20px;
+}
+
+#carouselContainer {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+#carouselContainer img {
+  max-height: 250px;
+}
+
+footer {
+  background-color: #721422;
+  padding: 15px 0px;
+  color: white;
+}
+footer h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+footer .footerButton {
+  border: 1px solid black;
+  border-radius: 8px;
+}
+footer .copyrightText {
+  font-style: italic;
+  font-size: 12px;
+}
+footer ul {
+  list-style: none;
+}
+footer ul a {
+  text-decoration: none;
+  color: white;
+}
+footer ul i {
+  padding: 4px 8px;
+}
+
+#footerImg {
+  width: 100px;
+}
+
+#searchByCategories h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #721422;
+}
+#searchByCategories p {
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italic;
+}
+#searchByCategories img {
+  width: 18rem;
+}
+#searchByCategories div {
+  position: relative;
+}
+#searchByCategories div h3 {
+  position: absolute;
+  top: 8px;
+  right: 15px;
+  color: red;
+}
+#searchByCategories div span {
+  position: absolute;
+  top: 40px;
+  right: 15px;
+  color: white;
+}
+
+#ourProducts h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #721422;
+}
+#ourProducts p {
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+#opinions h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #721422;
+}
+#opinions div {
+  background-color: rgba(114, 20, 34, 0.7882352941);
+  color: white;
+  padding: 2rem 6rem;
+}
+#opinions div p {
+  text-align: center;
+}
+#opinions div span {
+  font-style: italic;
+}
+
+body {
+  background-color: rgba(114, 20, 34, 0.6549019608);
+}
+
+/*# sourceMappingURL=style.css.map */

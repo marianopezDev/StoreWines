@@ -1,0 +1,38 @@
+#searchByCategories {
+
+    h2 {
+        font-size: 20px;
+        font-weight: 600;
+        color: #721422;
+    }
+
+    p {
+        font-size: 14px;
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    img {
+        width: 18rem;
+    }
+
+    div {
+        position: relative;
+
+        h3 {
+            position: absolute;
+            top: 8px;
+            right: 15px;
+            color: red;
+        }
+
+        span {
+            position: absolute;
+            top: 40px;
+            right: 15px;
+            color: white;
+        }
+    }
+    
+    
+}

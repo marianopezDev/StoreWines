@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Tienda de Vinos</title>
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="mx-4" href="index.html"><img src="images/Logo.png" alt="Logo" id="logoNav"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="bi bi-list"></i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                    <div class="me-auto mx-auto">
+                        <ul class="navbar-nav mx-auto listItems">
+                            <li class="nav-item px-4">
+                                <a href="" class="nav-link">INICIO</a>
+                            </li>
+                            <li class="nav-item dropdown px-4">
+                                <a href="" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">TIENDA</a>
+                                <ul class="dropdown-menu">
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown px-4">
+                                <a href="" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">PRODUCTOS</a>
+                                <ul class="dropdown-menu">
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown px-4">
+                                <a href="" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">NOTICIAS</a>
+                                <ul class="dropdown-menu">
+                                </ul>
+                            </li>
+                            <li class="nav-item px-4">
+                                <a href="" class="nav-link">CONTACTO</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <input type="search" name="principalSearch" id="principalSearch" class="d-none">
+                        <button class="navButton mx-1"><i class="bi bi-search"></i></button>
+                        <button class="navButton mx-1"><i class="bi bi-heart"></i></button>
+                        <button class="navButton mx-1"><i class="bi bi-cart2"></i></button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container-fluid d-flex justify-content-center" id="carouselContainer">
+            <div id="wineStoreCarousel" class="carousel slide carousel-fade" data-bs-ride="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#wineStoreCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#wineStoreCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#wineStoreCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/Carousel1.png" class="d-block w-100 px-4" alt="Carousel1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/Carousel2.png" class="d-block w-100 px-4" alt="Carousel2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/Carousel3.png" class="d-block w-100 pt-4" alt="Carousel3">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="container w-75 py-4" id="searchByCategories">
+                <h2>BUSCA POR CATEGORIAS</h2>
+                <p>Elige la categoría que quieras.</p>
+                <div class="d-flex justify-content-center">
+                    <div class="w-25">
+                        <img src="images/vinosCat.png" alt="imagenCat1" class="w-100">
+                        <h3>Categoria 1</h3>
+                        <span>50 productos</span>
+                    </div>
+                    <div class="w-25">
+                        <img src="images/vinosCat2.png" alt="imagenCat2" class="w-100">
+                        <h3>Categoria 2</h3>
+                        <span>45 productos</span>
+                    </div>
+                    <div class="w-25">
+                        <img src="images/vinosCat3.png" alt="imagenCat3" class="w-100">
+                        <h3>Categoria 3</h3>
+                        <span>60 productos</span>
+                    </div>
+                    <div class="w-25">
+                        <img src="images/vinosCat4.png" alt="imagenCat4" class="w-100">
+                        <h3>Categoria 4</h3>
+                        <span>60 productos</span>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="container w-75 my-4" id="ourProducts">
+                <h2>NUESTROS PRODUCTOS</h2>
+                <div class="container d-flex">
+                    <div class="card mx-2 p-1" style="width: 18rem;">
+                        <img src="images/product1.jpg" class="card-img-top" alt="ProductoCard1">
+                        <div class="card-body">
+                            <h5 class="card-title">Malbec</h5>
+                            <span class="card-text">Vino 1</span>
+                            <a href="#" class="btn btn-primary">Ver producto</a>
+                        </div>
+                    </div>
+                    <div class="card mx-2 p-1" style="width: 18rem;">
+                        <img src="images/product1.jpg" class="card-img-top" alt="ProductoCard1">
+                        <div class="card-body">
+                            <h5 class="card-title">Malbec</h5>
+                            <span class="card-text">Vino 1</span>
+                            <a href="#" class="btn btn-primary">Ver producto</a>
+                        </div>
+                    </div>
+                    <div class="card mx-2 p-1" style="width: 18rem;">
+                        <img src="images/product1.jpg" class="card-img-top" alt="ProductoCard1">
+                        <div class="card-body">
+                            <h5 class="card-title">Malbec</h5>
+                            <span class="card-text">Vino 1</span>
+                            <a href="#" class="btn btn-primary">Ver producto</a>
+                        </div>
+                    </div>
+                    <div class="card mx-2 p-1" style="width: 18rem;">
+                        <img src="images/product1.jpg" class="card-img-top" alt="ProductoCard1">
+                        <div class="card-body">
+                            <h5 class="card-title">Malbec</h5>
+                            <span class="card-text">Vino 1</span>
+                            <a href="#" class="btn btn-primary">Ver producto</a>
+                        </div>
+                    </div>
+            </div>
+                <button class="btn btn-primary my-2">Ver todos los productos</button>
+            <div>
+                
+            </div>
+            <div class="container w-75 my-4" id="opinions">
+                <h2>QUE OPINAN NUESTROS CLIENTES</h2>
+                <div class="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni aspernatur totam reprehenderit, dolorem sunt quam dolore enim veniam asperiores eos, neque iste nemo ex sed deserunt vel architecto, nobis dolor.</p>
+                    <span>CLIENTE</span>
+                </div>
+            </div>
+            <br>
+            <div class="container my-4">
+                <h2>ULTIMAS NOTICIAS</h2>
+                <p>Ultimas novedades</p>
+                <div class="d-flex justify-content-center">
+                    <div class="w-25">
+                        <img src="" alt="imagenCatVinos">
+                        <h3>New1</h3>
+                        <span>Noticia1</span>
+                    </div>
+                    <div class="w-25">
+                        <img src="" alt="imagenCatCervezas">
+                        <h3>New2</h3>
+                        <span>Noticia2</span>
+                    </div>
+                    <div class="w-25">
+                        <img src="" alt="imagenCatOtros">
+                        <h3>New3</h3>
+                        <span>Noticia3</span>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <button class="btn btn-primary">INSTAGRAM</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section>
+            <div class="container d-flex justify-content-center">
+                <div class="w-50">
+                    <h2>NUESTRAS OFERTAS</h2>
+                    <p>Suscribete para obtener información sobre nuestras ofertas y acceder a fabulosos descuentos!</p>
+                </div>
+                <div class="w-50">
+                    <form action="" id="formSuscribe" class=" d-flex w-100">
+                        <input type="email" class="form-control w-75 mx-1" id="emailSubscribe" aria-describedby="emailHelp" placeholder="Escribe tu email.">
+                        <button type="submit" class="btn btn-primary w-25 mx-1">Suscribete!</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="container d-flex py-2">
+            <div class="w-25">
+                <img src="images/Logo.png" alt="LogoFooter" id="footerImg">
+                <p>Seguinos en las redes</p>
+                <button class="footerButton"><i class="bi bi-facebook"></i></button>
+                <button class="footerButton"><i class="bi bi-twitter"></i></button>
+                <button class="footerButton"><i class="bi bi-instagram"></i></button>
+                <button class="footerButton"><i class="bi bi-linkedin"></i></button>
+            </div>
+            <div class="w-25">
+                <h4>INFORMACION</h4>
+                <ul>
+                    <li><a href="#">About Brand</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contactanos</a></li>
+                </ul>
+            </div>
+            <div class="w-25">
+                <h4>ACCESOS RAPIDOS</h4>
+                <ul>
+                    <li><a href="#">Lista de deseos</a></li>
+                    <li><a href="#">Checkout</a></li>
+                    <li><a href="#">Carrito</a></li>
+                </ul>
+            </div>
+            <div class="w-25">
+                <h4>CONTACTANOS</h4>
+                <ul>
+                    <li><i class="bi bi-geo-alt"></i><span>Dirección</span></li>
+                    <li><i class="bi bi-telephone"></i><span>Telefono</span></li>
+                    <li><i class="bi bi-envelope"></i><span>Email</span></li>
+                </ul>
+            </div>
+        </section>
+        <section class="container d-flex justify-content-between py-2">
+            <span class="copyrightText">COPYRIGHT © 2022 StoreWine</span>
+            <span class="copyrightText">TODOS LOS DERECHOS RESERVADOS</span>
+        </section>
+    </footer>
+</body>
+<script src="index.js"></script>
+<!-- Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>
